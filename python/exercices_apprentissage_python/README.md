@@ -1,82 +1,84 @@
-# 🎲 Parcours d'Apprentissage Python
+# 🐍 Mon Parcours Python - Journal d'apprentissage
 
-> *"Comme un bon MJ, Python récompense ceux qui lisent les règles... et improvisent quand même."*
+Salut ! Bienvenue sur mon dépot d'exercices Python. J'ai commencé à apprendre Python en avril 2023 parce que... ben faut bien se mettre à jour un jour non ? 😅
 
-## 📚 Description
+## Pourquoi ce repo ?
 
-Ce dépôt contient mon parcours d'apprentissage Python, développé progressivement depuis avril 2023. 
-Les exercices sont thématisés autour de l'univers du jeu de rôle et des jeux de société, parce qu'apprendre c'est plus fun quand on lance des dés ! 🎯
+En gros j'avais envie de garder une trace de ma progression. Au début je galérais pas mal (les indices qui commencent à 0, sérieusement ??) mais petit à petit ça rentre.
 
-**Créateur** : Geoffroy Streit
+J'ai mis une thématique jeux de rôle / jeux de société dans les exercices parce que c'est ma passion depuis toujorus. Rien de tel qu'un bon lancer de dés pour rendre l'apprentissage moins chiant !
 
-## 🗂️ Structure des Exercices
+## 📁 C'est quoi dans ce dossier ?
 
-### Niveau Débutant - Fondamentaux
-| # | Exercice | Description |
-|---|----------|-------------|
-| 01 | Print & Variables | Premiers pas, affichage et variables |
-| 02 | Types & Cast | int, str, float et conversions |
-| 03 | Conditions | if/elif/else - l'arbre des décisions |
-| 04 | Boucles | for & while - les tours de jeu |
-| 05 | Listes | L'inventaire du héros |
-| 06 | Tuples & Sets | Immuables et uniques |
-| 07 | Dictionnaires | La fiche de perso version Python |
+### Les bases (exercices 01 à 07)
+Les trucs qu'on doit maitriser avant de faire quoi que ce soit d'intéressant :
+- print, variables
+- les types (int, str, float... j'oublie toujorus les conversions)
+- conditions if/else
+- boucles for et while
+- listes, tuples, dictionnaires
 
-### Niveau Intermédiaire - Fonctions & Fichiers
-| # | Exercice | Description |
-|---|----------|-------------|
-| 08 | Fonctions | Les sorts qu'on apprend une fois |
-| 09 | Modules | Organiser son grimoire |
-| 10 | Fichiers | Sauvegarder sa partie |
-| 11 | Exceptions | Gérer les échecs critiques |
-| 12 | Classes & Objets | Créer ses propres règles |
-| 13 | Héritage | Les classes de prestige |
+### Niveau intermédiare (08 à 13)
+Là ça commence à être sympa :
+- les fonctions (j'adore les fonctions, tout devient plus propre)
+- les modules (enfin du code organisé !)
+- manipulation de fichiers
+- gestion des erreurs try/except
+- les classes ! (POO, ça fait peur au début mais en fait c'est logique)
 
-### Mini-Projets & Concepts Avancés
-| # | Exercice | Description |
-|---|----------|-------------|
-| 14 | Mini-projet Citations | V1 simple → V2 avec fichier externe |
-| 15 | Comprehensions | La magie en une ligne |
-| 16 | Lambda/Map/Filter | Programmation fonctionnelle |
-| 17 | DateTime | Tracker le temps de campagne |
-| 18 | JSON | Format universel des fiches |
-| 19 | API Requests | Communiquer avec le monde |
-| 20 | Tests Unitaires | Vérifier avant la partie |
+### Les exos "sérieux" (14 à 24)
+- mini-projets
+- comprehensions (super puissant ce truc)
+- lambda/map/filter (un peu tordu au début)
+- dates, JSON, APIs
+- tests unitaires
+- algos de base
+- générateurs et itérateurs
+- projet final (un gestionnaire de quêtes)
 
-### Niveau Avancé - Algorithmie & Concepts
-| # | Exercice | Description |
-|---|----------|-------------|
-| 21 | Algorithmes | Tri, recherche - stratégies éprouvées |
-| 22 | Générateurs | yield - improviser au fur et à mesure |
-| 23 | Itérateurs | Créer ses propres parcours |
-| 24 | Projet Final | Gestionnaire de quêtes console |
+### TP Bonus - Thème SF 🚀
+Deux TPs plus costauds sur theme Science-Fiction :
+- **TP25** : Simulateur de flotte spatiale
+- **TP26** : Système de terraformation planétaire
 
-## 🚀 Comment Utiliser
+## Comment ça marche ?
 
 ```bash
-# Cloner le dépôt
+# cloner le truc
 git clone https://github.com/Hylst/my-Personal-Public-Python-Scripts.git
 
-# Naviguer vers les exercices
+# aller dans le dossier
 cd python/exercices_apprentissage_python
 
-# Exécuter un exercice
-python 01_print_variables/ex1_print_variables.py
+# lancer un exercice (remplacer XX par le numéro)
+python XX_nom_dossier/fichier.py
 ```
 
-## 📌 Notes
+## Notes en vrac
 
-- Tous les commentaires sont en français
-- Le style est volontairement "humain" avec quelques imperfections
-- Thématique JDR/jeux de société pour rendre l'apprentissage plus engageant
-- Chaque exercice est autonome et peut être exécuté indépendamment
+- Tout est commenté en français (des fois un peu trop mais bon)
+- Y'a surement des fautes et des trucs pas optimaux, c'est NORMAL c'est de l'apprentissage
+- Les commentaires sont parfois un peu... personnels ? Genre "ça marche enfin !!" ou "je comprend pas pourquoi ça plante"
+- J'utilise Python 3.x (j'ai même pas essayé Python 2, à quoi bon)
 
-## 📅 Historique
+## Ma progression
 
-- **Avril 2023** : Début du parcours (exercices 1-7)
-- **Mai 2023** : Niveau intermédiaire (exercices 8-18)
-- **Juin 2023** : Niveau avancé et projet final (exercices 19-24)
+| Période | Ce que j'ai fait |
+|---------|------------------|
+| Avril 2023 | Bases, j'ai tapé "Hello World" comme tout le monde |
+| Mai 2023 | Fonctions, fichiers, POO (la révélation) |
+| Juin 2023 | Trucs avancés, projet final |
+| Juillet 2023 | TPs bonus SF (pour changer du médiéval-fantastique) |
+
+## TODO (pour plus tard)
+
+- [ ] Faire un exo sur les décorateurs (j'ai toujorus pas compris)
+- [ ] Regarder asyncio (apparement c'est important pour le web)
+- [ ] Peut-être Django ou Flask un jour ?
+- [ ] Finir de commenter proprement certians fichiers
 
 ---
 
-*"Un nat 1, c'est juste un 20 timide."* 🎲
+*Créé par Geoffroy Streit - 2023*
+
+> "Le code parfait n'existe pas. Le code qui marche, par contre..." 🎲
